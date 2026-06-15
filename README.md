@@ -2,9 +2,17 @@
 
 <div align="center">
 
-<img src="./public/favicon.ico" width="120" alt="Logo"/>
+<img src="https://github.com/Dzakwan778.png" width="120" style="border-radius:50%;">
 
-### A Modern, Futuristic & Responsive Personal Portfolio built with React, TypeScript, and Vite.
+###
+
+<a href="https://github.com/Dzakwan778">
+<img src="https://img.shields.io/badge/GitHub-Dzakwan778-181717?style=for-the-badge&logo=github">
+</a>
+
+##
+
+### Website portfolio modern yang dibuat menggunakan **React**, **TypeScript**, dan **Vite** dengan desain futuristik, responsif, serta animasi yang menarik.
 
 [![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
@@ -15,117 +23,97 @@
 
 ---
 
-# 📖 Table of Contents
+# 📖 Daftar Isi
 
-- About
-- Features
-- Demo
-- Tech Stack
-- Folder Structure
-- Installation
-- Running Locally
-- Build for Production
-- Environment Variables
-- Customization
+- Tentang Project
+- Fitur
+- Teknologi
+- Struktur Project
+- Instalasi
+- Menjalankan Project
+- Build Production
+- Konfigurasi
+- Kustomisasi
 - GitHub Stats
-- Contributing
-- License
-- Author
+- Kontribusi
+- Lisensi
+- Kontak
 
 ---
 
-# 📌 About
+# 📌 Tentang Project
 
-WanMa2 Portfolio is a premium personal portfolio website designed with a futuristic aesthetic and smooth animations. It showcases personal information, projects, skills, experience, achievements, and contact details in a modern and responsive interface.
+**WanMa2 Portfolio** merupakan website portfolio pribadi yang menampilkan informasi mengenai:
 
-The project is built using:
+- 👤 Profil
+- 💼 Pengalaman
+- 🛠️ Skill
+- 🚀 Project
+- 📈 Statistik
+- 📬 Kontak
 
-- ⚛️ React
-- 📘 TypeScript
-- ⚡ Vite
-- 🎨 Tailwind CSS
-- 🎬 Motion Animation
-- 🎯 Lucide Icons
-
----
-
-# ✨ Features
-
-- Modern UI/UX
-- Fully Responsive
-- Fast Performance
-- Animated Components
-- Interactive Dashboard
-- Projects Showcase
-- Skills Section
-- Experience Timeline
-- Statistics Section
-- Contact Section
-- Easy Customization
-- TypeScript Support
+Website ini dibuat dengan konsep **Modern UI**, **Cyber/Futuristic Design**, dan **Responsive Layout** sehingga nyaman digunakan di desktop maupun mobile.
 
 ---
 
-# 🌐 Demo
+# ✨ Fitur
 
-## Development
-
-```bash
-npm run dev
-```
-
-## Production
-
-```bash
-npm run build
-```
+- ✅ Responsive Design
+- ✅ Modern UI/UX
+- ✅ Animasi Interaktif
+- ✅ Hero Section
+- ✅ About Section
+- ✅ Skills Section
+- ✅ Experience Timeline
+- ✅ Projects Showcase
+- ✅ Dashboard
+- ✅ Statistics
+- ✅ Contact Section
+- ✅ Mudah dikustomisasi
 
 ---
 
-# 🛠 Tech Stack
+# 🛠️ Teknologi yang Digunakan
 
-| Technology | Usage |
-|------------|-------|
-| React | Frontend |
+| Teknologi | Kegunaan |
+|-----------|-----------|
+| React | Frontend Framework |
 | TypeScript | Type Safety |
 | Vite | Build Tool |
-| TailwindCSS | Styling |
-| Motion | Animation |
+| Tailwind CSS | Styling |
+| Motion | Animasi |
 | Lucide React | Icons |
 | Express | Backend Support |
-| dotenv | Environment Variables |
+| dotenv | Environment |
 
 ---
 
-# 📁 Folder Structure
+# 📂 Struktur Project
 
 ```text
 .
 ├── public
+│
 ├── src
+│   ├── assets
+│   ├── components
+│   │   ├── About.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Dashboard.tsx
+│   │   ├── Experience.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── Projects.tsx
+│   │   ├── ProjectGraphic.tsx
+│   │   ├── RotatingText.tsx
+│   │   ├── Skills.tsx
+│   │   └── Statistics.tsx
 │
-├── assets
-│
-├── components
-│   ├── About.tsx
-│   ├── Contact.tsx
-│   ├── Dashboard.tsx
-│   ├── Experience.tsx
-│   ├── Footer.tsx
-│   ├── Hero.tsx
-│   ├── Navbar.tsx
-│   ├── Projects.tsx
-│   ├── ProjectGraphic.tsx
-│   ├── RotatingText.tsx
-│   ├── Skills.tsx
-│   └── Statistics.tsx
-│
-├── lib
-│
-├── App.tsx
-├── data.ts
-├── main.tsx
-├── types.ts
+│   ├── data.ts
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── types.ts
 │
 ├── package.json
 ├── tsconfig.json
@@ -135,21 +123,21 @@ npm run build
 
 ---
 
-# ⚙️ Installation
+# ⚙️ Instalasi
 
-Clone the repository
-
-```bash
-git clone https://github.com/yourusername/yourrepository.git
-```
-
-Go into the project
+Clone repository:
 
 ```bash
-cd yourrepository
+git clone https://github.com/username/repository.git
 ```
 
-Install dependencies
+Masuk ke folder project:
+
+```bash
+cd repository
+```
+
+Install seluruh dependency:
 
 ```bash
 npm install
@@ -157,15 +145,15 @@ npm install
 
 ---
 
-# 🚀 Running Locally
+# 🚀 Menjalankan Project
 
-Start development server
+Mode Development:
 
 ```bash
 npm run dev
 ```
 
-Open
+Kemudian buka browser:
 
 ```
 http://localhost:3000
@@ -173,15 +161,15 @@ http://localhost:3000
 
 ---
 
-# 📦 Build
+# 📦 Build Production
 
-Create production build
+Build project:
 
 ```bash
 npm run build
 ```
 
-Preview production
+Preview hasil build:
 
 ```bash
 npm run preview
@@ -189,42 +177,43 @@ npm run preview
 
 ---
 
-# 🔐 Environment Variables
+# 🔑 Konfigurasi Environment
 
-Create
+Jika menggunakan API, buat file:
 
 ```
 .env.local
 ```
 
-Example
+Contoh:
 
 ```env
-GEMINI_API_KEY=your_api_key_here
+GEMINI_API_KEY=your_api_key
 ```
 
 ---
 
-# 🎨 Customization
+# 🎨 Kustomisasi
 
-You can edit your information inside:
+Data portfolio dapat diubah melalui:
 
 ```
 src/data.ts
 ```
 
-Including:
+Anda dapat mengganti:
 
-- Name
-- Bio
-- Skills
-- Projects
-- Experience
-- Statistics
-- Contact
-- Social Links
+- Nama
+- Foto
+- Deskripsi
+- Skill
+- Pengalaman
+- Project
+- Statistik
+- Sosial Media
+- Kontak
 
-Images can be replaced inside:
+Sedangkan gambar dapat diganti pada folder:
 
 ```
 src/assets/
@@ -242,55 +231,58 @@ src/assets/
 
 ---
 
-# 🤝 Contributing
+# 🤝 Kontribusi
 
-Contributions are welcome!
+Kontribusi sangat terbuka.
 
-1. Fork the repository
+Langkah-langkah:
 
-2. Create a feature branch
+1. Fork repository
 
-```bash
-git checkout -b feature-name
-```
-
-3. Commit your changes
+2. Buat branch baru
 
 ```bash
-git commit -m "Add new feature"
+git checkout -b feature-baru
 ```
 
-4. Push
+3. Commit perubahan
 
 ```bash
-git push origin feature-name
+git commit -m "Menambahkan fitur baru"
 ```
 
-5. Open a Pull Request
+4. Push ke repository
+
+```bash
+git push origin feature-baru
+```
+
+5. Buat Pull Request
 
 ---
 
-# 📜 License
+# 📜 Lisensi
 
-This project is available under the **MIT License**.
+Project ini menggunakan lisensi **MIT License**.
 
-Feel free to modify and use it for personal or commercial purposes.
+Silakan digunakan untuk kebutuhan pribadi maupun komersial sesuai ketentuan lisensi.
 
 ---
 
-# 👨‍💻 Author
+# 👨‍💻 Kontak
 
 ## Dzakwan
 
-- 🌐 Personal Portfolio
-- 💻 Full Stack Developer
-- 🚗 Automotive Enthusiast
-- 🇮🇩 Indonesia
+💻 Full Stack Developer  
+🚗 Automotive Enthusiast  
+🇮🇩 Indonesia
 
 ---
 
 <div align="center">
 
-### ⭐ If you like this project, don't forget to star the repository!
+## ⭐ Jangan lupa berikan Star jika project ini bermanfaat!
+
+Terima kasih telah mengunjungi repository ini ❤️
 
 </div>
