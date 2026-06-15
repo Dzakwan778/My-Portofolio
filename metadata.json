@@ -1,0 +1,6 @@
+{
+  "name": "WanMa2 Portfolio",
+  "description": "Premium modern-futuristic personal portfolio for WanMa2. Elegant red and black custom cyber luxury design with rich micro-interactions, responsive timeline, skills grid, and statistics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
